@@ -73,12 +73,21 @@
       <h3 class="text-3xl font-bold mb-10 text-center">Projects</h3>
       <div class="grid gap-8 md:grid-cols-2">
         <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow hover:shadow-2xl cursor-pointer transition" onclick="openModal('modal1')">
-          <h4 class="text-xl font-semibold mb-2">Graduate Thesis – Animal Shelter Database</h4>
+          <h4 class="text-xl font-semibold mb-2">Graduate Capstone Project – Animal Shelter Database</h4>
           <p>Click to read more...</p>
         </div>
         <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow hover:shadow-2xl cursor-pointer transition" onclick="openModal('modal2')">
           <h4 class="text-xl font-semibold mb-2">Immunization Analytics – DSHS</h4>
           <p>Click to read more...</p>
+         </div>         
+           <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow hover:shadow-2xl cursor-pointer transition" onclick="openModal('modal3')">
+          <h4 class="text-xl font-semibold mb-2">Data Clean up – DSHS</h4>
+          <p>Click to read more...</p>
+         </div>
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow hover:shadow-2xl cursor-pointer transition" onclick="openModal('modal4')">
+          <h4 class="text-xl font-semibold mb-2">Automated Provider Outreach System for CDC Criteria Compliance – DSHS</h4>
+          <p>Click to read more...</p>         
+        </div>
         </div>
       </div>
     </div>
@@ -100,6 +109,22 @@
       <p>Led end-to-end development of immunization dashboards for statewide public health programs. Leveraged Python, SQL, and Power BI to automate ETL pipelines, reducing manual processing time from two months to 15 minutes. Used predictive analytics to identify vaccine uptake trends in underserved regions.</p>
     </div>
   </div>
+
+  <div id="modal3" class="fixed inset-0 bg-black bg-opacity-70 hidden items-center justify-center z-50" role="dialog" aria-modal="true" aria-labelledby="modal3-title">
+    <div class="bg-white dark:bg-gray-900 p-6 rounded shadow max-w-lg w-full relative">
+      <button onclick="closeModal('modal3')" class="absolute top-2 right-2 text-xl text-gray-600 dark:text-white" aria-label="Close modal">&times;</button>
+      <h4 id="modal3-title" class="text-xl font-semibold mb-2">Data Clean up – DSHS</h4>
+      <p>Automated data cleaning processes using Python and SQL, improving data quality and reducing manual effort by 90%. Developed scripts to standardize immunization records, ensuring accurate reporting and analysis.</p>
+    </div>
+  </div>
+
+   <div id="modal4" class="fixed inset-0 bg-black bg-opacity-70 hidden items-center justify-center z-50" role="dialog" aria-modal="true" aria-labelledby="modal4-title">
+    <div class="bg-white dark:bg-gray-900 p-6 rounded shadow max-w-lg w-full relative">
+      <button onclick="closeModal('modal4')" class="absolute top-2 right-2 text-xl text-gray-600 dark:text-white" aria-label="Close modal">&times;</button>
+      <h4 id="modal4-title" class="text-xl font-semibold mb-2">Automated Provider Outreach System for CDC Criteria Compliance – DSHS</h4>
+      <p>Developed an end-to-end automation process using Python, SQL, and Excel to extract and analyze client-provider data. The solution identified target clients and their associated providers, applying CDC defined criteria to filter relevant records. This automation enabled rapid segmentation and facilitated outreach to over 1,600 providers across Texas, a task that was previously manual, now completing it in under 15 minutes, significantly improving efficiency and compliance readiness.</p>
+    </div>
+  </div> 
 
   <!-- Experience -->
   <section id="experience" class="py-16 px-4 max-w-5xl mx-auto bg-white dark:bg-black" data-aos="fade-up">
@@ -153,12 +178,45 @@
       <div class="hover:text-black dark:hover:text-white transition">Tableau</div>
       <div class="hover:text-black dark:hover:text-white transition">Python</div>
       <div class="hover:text-black dark:hover:text-white transition">HTML</div>
+      <div class="hover:text-black dark:hover:text-white transition">Java</div>
       <div class="hover:text-black dark:hover:text-white transition">ASP</div>
       <div class="hover:text-black dark:hover:text-white transition">SAAS</div>
       <div class="hover:text-black dark:hover:text-white transition">R</div>
-      <div class="hover:text-black dark:hover:text-white transition">SQL / PL-SQL / Oracle</div>
-      <div class="hover:text-black dark:hover:text-white transition">Exce / Access / Power Automate</div>
+      <div class="hover:text-black dark:hover:text-white transition">SQL</div>
+      <div class="hover:text-black dark:hover:text-white transition">PL/SQL</div>
+      <div class="hover:text-black dark:hover:text-white transition">Unix Shell Scripting</div>
+      <div class="hover:text-black dark:hover:text-white transition">TOAD</div>
+      <div class="hover:text-black dark:hover:text-white transition">Excel</div>
+      <div class="hover:text-black dark:hover:text-white transition">Access</div>   
+      <div class="hover:text-black dark:hover:text-white transition">PL-SQL</div>
+      <div class="hover:text-black dark:hover:text-white transition">Oracle</div>
+      <div class="hover:text-black dark:hover:text-white transition">MySQL</div>
+      <div class="hover:text-black dark:hover:text-white transition">ETL</div>
+      <div class="hover:text-black dark:hover:text-white transition">Data Warehousing</div>
+      <div class="hover:text-black dark:hover:text-white transition">Data Visualization</div>
+      <div class="hover:text-black dark:hover:text-white transition">Data Analysis</div>
+      <div class="hover:text-black dark:hover:text-white transition">Data Mining</div>
+      <div class="hover:text-black dark:hover:text-white transition">Data Cleaning</div>
+      <div class="hover:text-black dark:hover:text-white transition">Data Governance</div>
+      <div class="hover:text-black dark:hover:text-white transition">Data Quality</div>
+      <div class="hover:text-black dark:hover:text-white transition">Data Integration</div>
+      <div class="hover:text-black dark:hover:text-white transition">Data Architecture</div>
+      <div class="hover:text-black dark:hover:text-white transition">Data Analytics</div>
+      <div class="hover:text-black dark:hover:text-white transition">Data Science</div>
       <div class="hover:text-black dark:hover:text-white transition">Data Modeling</div>
+      <div class="hover:text-black dark:hover:text-white transition">Excel</div>
+      <div class="hover:text-black dark:hover:text-white transition">Access</div>
+      <div class="hover:text-black dark:hover:text-white transition">Power Automate</div>
+      <div class="hover:text-black dark:hover:text-white transition">Power Query</div>
+      <div class="hover:text-black dark:hover:text-white transition">Power Apps</div>
+      <div class="hover:text-black dark:hover:text-white transition">Microsoft 365</div>
+      <div class="hover:text-black dark:hover:text-white transition">Microsoft Teams</div>
+      <div class="hover:text-black dark:hover:text-white transition">Microsoft SharePoint</div>
+      <div class="hover:text-black dark:hover:text-white transition">Microsoft OneDrive</div>
+      <div class="hover:text-black dark:hover:text-white transition">Microsoft PowerPoint</div>
+      <div class="hover:text-black dark:hover:text-white transition">Microsoft Word</div>
+      <div class="hover:text-black dark:hover:text-white transition">Microsoft Outlook</div>
+
       
     </div>
   </section>
